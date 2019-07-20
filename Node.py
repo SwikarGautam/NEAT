@@ -10,7 +10,7 @@ class Node:
     @classmethod
     def create_node(cls, c, id_dict, id_timer, m):
 
-        if c in id_dict:               # Checks if a node has been created between given two nodes
+        if c in id_dict:               # Checks if a node has been created by dividing the given connection
             return cls(id_dict[c], 2), id_dict, id_timer
 
         if len(id_dict) > 0:
