@@ -19,7 +19,7 @@ class Population:
         self.output_n = output_n
         self.innov_dict = {}
         self.id_dict = {}
-        # id_dict is dictionary that has the tuple of id number of two nodes joined by a connection as key and the id
+        # id_dict is dictionary that has innovation number of connections as key and the id
         # number of node created by dividing the connection as value of the key
         self.id_timer = {}
         self.population = []
