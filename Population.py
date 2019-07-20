@@ -5,9 +5,9 @@ from Node import Node
 from copy import deepcopy
 
 
-# In this implementation, nodes are assigned an id number on the basis of the input and output nodes of the connection
+# In this implementation, nodes are assigned an id number on the basis of the connection
 # that has been divides in add-node mutation. So in all the genome,the nodes that have been created by dividing the
-# connection between node 1 and node 3 receive same id number. This information is stored in id_dict which is a python
+# connection with innovation number 4 receive same id number. This information is stored in id_dict which is a python
 # dictionary
 # There is also an alternative method as shown in line 112.
 class Population:
